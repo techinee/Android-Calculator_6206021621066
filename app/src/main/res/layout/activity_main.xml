@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:hint="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="431dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ButtonNumber07"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/ButtonNumber08"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/ButtonNumber09"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/ButtonSymbolDivide"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ButtonNumber04"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/ButtonNumber05"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/ButtonNumber06"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/ButtonSymbolMultiply"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="*" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout05"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ButtonNumber01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/ButtonNumber02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/ButtonNumber03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/ButtonSymbolSubtract"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="-" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout06"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ButtonNumber00"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/ButtonSymbolDot"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="." />
+
+            <Button
+                android:id="@+id/ButtonSymbolClear"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/ButtonSymbolAdd"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout07"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/ButtonSymbolDel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="ButtonClickHandler"
+                android:text="←"
+                tools:textSize="30dp" />
+
+            <Button
+                android:id="@+id/buttonSymbolPlusMinus"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/ButtonSymbolExe"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="ButtonClickHandler"
+                android:text="=" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
